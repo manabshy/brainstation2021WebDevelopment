@@ -1,3 +1,43 @@
 ul.ingredients {
   color: red;
 }
+
+#google {
+  color: aqua;
+}
+
+#brain {
+  color: violet;
+}
+
+#mypage {
+  color: chocolate;
+}
+
+ul.links {
+  font-size: 50px;
+}
+
+span.text {
+  font-size: 20px;
+}
+
+button {
+  background-color: darkgreen;
+  width: 150px;
+  height: 50px;
+}
+
+button#btn_1 {
+  background-color: darkred;
+}
+
+img {
+  width: 150px;
+}
+
+
+  h1.blue-heading {
+    color: blue;
+  }
+
