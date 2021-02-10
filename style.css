@@ -1,2 +1,37 @@
 
 
+
+/*
+.red-paragraph {
+  color: red;
+}
+
+.red-paragraph.special {
+  font-weight: bold;
+} */
+
+.red-paragraph,.special {
+ color: red;
+ font-weight: bold;
+}
+
+p span.child-element {
+  color: blue;
+}
+
+
+div.my-parent > .this-child  {
+  color: crimson;
+}
+
+div[my-attribute="my-special-div"] {
+ color : darkseagreen;
+ font-size: 60px;
+ font:bold;
+
+}
+
+a[href="https://google.co.uk"] {
+  color: darkolivegreen;
+  font: 50px;
+}
