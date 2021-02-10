@@ -1,14 +1,2 @@
 
-h1 {
-  font-style: italic;
-}
-.ingredients {
-  color: blue;
-}
 
-h2#ingredients {
-  color: red;
-}
-div.recipe {
-  text-align: center;
-}
