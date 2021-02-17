@@ -1,17 +1,16 @@
-div.my-parent {
-  width: 200px;
+div.container {
+  display: flex;
   border: 15px solid red;
-  padding: 50px;
-  margin: 100px;
+  padding: 10px;
 }
 
 
 
-div.another-parent {
-  width: 200px;
-  border: 15px solid gold;
-  padding: 50px;
-  margin: 100px;
+div.child {
+  width: 20px;
+  border: 5px solid gold;
+  padding: 65px;
+  margin: 10px;
 }
 
 
@@ -21,4 +20,8 @@ div.another-parent {
 /**** Padding
 
 /**** border
+
+/**** display : block|inline|inline-block|
+
+/**** display : flex
 
