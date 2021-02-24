@@ -1,4 +1,113 @@
+* {
+  margin:0;
+  font-family: "Calibri", sans-serif;
+}
 .header {
+  color:black;
   display: flex;
   justify-content: space-around;
+  font-weight: bold;
+  padding:10px;
+  position: fixed;
+  background: white;
+  width: 100%;
+}
+
+#logo {
+  width:13%; 
+  height:13%;
+  padding-right:250px;
+}
+#login {
+  padding-left: 250px;
+}
+h1 {
+  font-size:large;
+  font-weight: lighter;
+}
+h2 {
+  font-size:xx-large;
+  font-weight: bolder;
+}
+
+.pig {
+  background-image: url("piggy-bank.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding-bottom: 0;
+ 
+}
+.pig>p { 
+  display:flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#Standard {
+  width: 35%;
+  font-size: 2.5em;
+  font-weight: bolder;
+  padding-top:400px;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+#startright {
+  width: 35%;
+  font-size: 1.2em;
+  padding-top:0;
+  padding-bottom:0;
+}
+.latinbody {
+  background-color:rgb(255, 242, 244);
+  padding: 100px;
+}
+.bodytitle {
+  text-align: center;
+}
+.bodytext {
+  display:flex;
+}
+.bodytext>span {
+  padding-left: 35px;
+}
+
+.footer {
+  display:flex;
+  padding-top:40px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  flex-direction:row;
+  justify-content:flex-start ;
+  background-color: grey;
+  color: white;
+  
+}
+
+.products {
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  line-height:1.5em;
+}
+.blog {
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  line-height:1.5em;
+}
+.contact {
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  line-height:1.5em;
+
+}
+#line {
+  border:none;
+  height:20px;
+  background-color: grey;
+}
+hr {
+  border-top: 1px solid white;
 }
