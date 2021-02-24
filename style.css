@@ -1,43 +1,113 @@
-ul.ingredients {
-  color: red;
+* {
+  margin:0;
+  font-family: "Calibri", sans-serif;
+}
+.header {
+  color:black;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  padding:10px;
+  position: fixed;
+  background: white;
+  width: 100%;
 }
 
-#google {
-  color: aqua;
+#logo {
+  width:13%; 
+  height:13%;
+  padding-right:250px;
+}
+#login {
+  padding-left: 250px;
+}
+h1 {
+  font-size:large;
+  font-weight: lighter;
+}
+h2 {
+  font-size:xx-large;
+  font-weight: bolder;
 }
 
-#brain {
-  color: violet;
+.pig {
+  background-image: url("piggy-bank.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding-bottom: 0;
+ 
+}
+.pig>p { 
+  display:flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#Standard {
+  width: 35%;
+  font-size: 2.5em;
+  font-weight: bolder;
+  padding-top:400px;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+#startright {
+  width: 35%;
+  font-size: 1.2em;
+  padding-top:0;
+  padding-bottom:0;
+}
+.latinbody {
+  background-color:rgb(255, 242, 244);
+  padding: 100px;
+}
+.bodytitle {
+  text-align: center;
+}
+.bodytext {
+  display:flex;
+}
+.bodytext>span {
+  padding-left: 35px;
 }
 
-#mypage {
-  color: chocolate;
+.footer {
+  display:flex;
+  padding-top:40px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  flex-direction:row;
+  justify-content:flex-start ;
+  background-color: grey;
+  color: white;
+  
 }
 
-ul.links {
-  font-size: 50px;
+.products {
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  line-height:1.5em;
 }
-
-span.text {
-  font-size: 20px;
+.blog {
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  line-height:1.5em;
 }
+.contact {
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  line-height:1.5em;
 
-button {
-  background-color: darkgreen;
-  width: 150px;
-  height: 50px;
 }
-
-button#btn_1 {
-  background-color: darkred;
+#line {
+  border:none;
+  height:20px;
+  background-color: grey;
 }
-
-img {
-  width: 150px;
+hr {
+  border-top: 1px solid white;
 }
-
-
-  h1.blue-heading {
-    color: blue;
-  }
-
