@@ -1,14 +1,19 @@
-header.header {
+
+.header {
     display: flex;
-    
-    background-color: lightgrey;
-}
+    justify-content: space-around;
+    padding:10px;
+    position: fixed;
+    width: 100%;
+    margin:auto;
+  }
 
-img.tap-financial {
-    width: 10%;
-    height: 10%;
-    justify-content: left;
-}
+  .tap-financial {
+      width: auto;
+      height: fit-content;
+      }
 
-
-
+      h1 {
+        font-size:large;
+        font-weight: lighter;
+      }
