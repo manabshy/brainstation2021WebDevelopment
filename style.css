@@ -121,3 +121,8 @@ img#chevron {
   top: 600px;
   width: 75px;
 }
+
+.blockquote {
+  width: 165px;
+  float: right;
+}
