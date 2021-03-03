@@ -1,8 +1,21 @@
 article.text-card, article.image-card{
   border: 1px solid #ccc!important;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
 }
+ .text-card >
+  span.top-heading {
+    float: right;
+    margin-right: 2px;
+  }
 
+  .btn-yellow {
+    background-color: yellow;
+    border-radius: 4px;
+  }
 
+  .text-cards, .image-cards {
+    display: flex;
+    justify-content: center;
+  }
