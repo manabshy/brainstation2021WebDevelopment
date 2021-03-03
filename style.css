@@ -126,3 +126,29 @@ img#chevron {
   width: 165px;
   float: right;
 }
+
+button.rounded-blue-button {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    height: 50px;
+    width: 180px;
+    border-radius: 29px;
+}
+
+button.rounded-blue-button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+button.rounded-blue-button.rectangle {
+  border-radius: 0px;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 540px;
+}
+section.search {
+  text-align: center;
+}
