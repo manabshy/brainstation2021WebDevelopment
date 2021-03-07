@@ -171,3 +171,27 @@ section.search {
   width: 30px;
   padding-top: 12px;
 }
+.section-feature-article img {
+  height: 600px;
+  width: 900px;
+}
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 175px;
+}
+
+.section header {
+    font-style: italic;
+    padding-top: 25px;
+    font-size: 22px;
+}
+
+section.feature-section > h2 {
+  text-align: center;
+}
+
+
+article.section-feature-article>div  header, h2, h3{
+  padding-left: 35px;
+}
