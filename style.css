@@ -38,6 +38,18 @@ h2 {
   padding-bottom: 0;
   box-shadow: inset 0 0 0 1000px rgb(84 98 136 / 30%);
 }
+.bank-article p {
+  color: white;
+}
+
+.bank-article section {
+  padding-left: 150px;
+}
+
+.bank-article section button.rounded-blue-button {
+    margin-top: 35px;
+}
+
 .pig>p {
   display:flex;
   flex-direction: column;
@@ -151,4 +163,11 @@ input[type="text"] {
 }
 section.search {
   text-align: center;
+}
+
+.search > img#search {
+  position: absolute;
+  padding-left: 475px;
+  width: 30px;
+  padding-top: 12px;
 }
