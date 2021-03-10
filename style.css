@@ -195,3 +195,53 @@ section.feature-section > h2 {
 article.section-feature-article>div  header, h2, h3{
   padding-left: 35px;
 }
+
+/**** Media Queries goes here ****/
+/**** styles for iPAD Goes here***/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+   {
+    .bank-article p {
+      color: rebeccapurple;
+      font-size: 14px !important;
+    }
+    .bank-article {
+      background-image: none;
+    }
+    .bodytext {
+      display: flex;
+      flex-direction: column;
+    }
+}
+/*** styles for mobile Goes here ***/
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+ {
+
+      .bank-article p {
+        color: tomato;
+      }
+      .bank-article {
+        background-image: none;
+      }
+      .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 175px;
+      }
+      .bodytext {
+        display: flex;
+        flex-direction: column;
+      }
+      #Standard {
+        width: 50%;
+        font-size: 70px;
+        font-weight: bolder;
+        margin-bottom: 0;
+        text-align: center;
+      }
+}
+
