@@ -1,3 +1,9 @@
+* {
+  margin:0;
+  font-family: "Calibri", sans-serif;
+}
+
+
 header {
  display: flex;
  justify-content: space-between;
@@ -12,7 +18,7 @@ button.subscribe {
   background-color: hsl(337, 79%, 56%);
   border-radius: 29px;
   border: 2px solid hsl(337, 79%, 56%);
-  height: 45px;
+  height: 38px;
   width: 146px;
   
 }
@@ -38,7 +44,7 @@ button.subscribe-today {
   border-radius: 29px;
   border: 2px solid hsl(337, 79%, 56%);
   height: 37px;
-  width: 146px;
+  width: 234px;
   
 }
 
@@ -46,17 +52,27 @@ button.subscribe-today {
   background-image: url(img/hero-photo.png);
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: 300px;
+  width: 100%;
   padding-bottom: 0;
+  padding-top: 200px;
   box-shadow: inset 0 0 0 1000px rgb(84 98 136 / 30%);
 }
 
-.subscribe-article h1 {
+.subscribe-section {
   color: white;
+  width: 38%;
+  height: 200px;
+}
+
+
+.subscribe-article h1 {
+ font-size: 44px;
+
 }
 
 .subscribe-article p {
-  color: white;
+  font-size: 16px;
 }
 
 .subscribe-article section {
@@ -66,3 +82,4 @@ button.subscribe-today {
 .subscribe-article section button.subscribe-article {
     margin-top: 35px;
 }
+
