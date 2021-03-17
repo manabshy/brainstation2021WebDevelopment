@@ -2,17 +2,19 @@ header {
  display: flex;
  justify-content: space-between;
  padding-top: 10px;
- padding-left: 10px;
+ padding-left: 33px;
+ position: fixed;
+ width: 94%;
 }
 
 button.subscribe {
   color: white;
   background-color: hsl(337, 79%, 56%);
   border-radius: 29px;
-  border: 4px solid white;
+  border: 2px solid hsl(337, 79%, 56%);
   height: 45px;
   width: 146px;
-  padding-right: 5px;
+  
 }
 
 button.login {
@@ -22,10 +24,45 @@ button.login {
   border-radius: 29px;
   height: 38px;
   width: 97px;
-
 }
 
-img.id{
-  height: 19px;
-  width: 126px;
+img#jukebox-logo{
+  height: 18px;
+  width: 120px;
+  padding:7px;
+}
+
+button.subscribe-today {
+  color: white;
+  background-color: hsl(337, 79%, 56%);
+  border-radius: 29px;
+  border: 2px solid hsl(337, 79%, 56%);
+  height: 37px;
+  width: 146px;
+  
+}
+
+.subscribe-article {
+  background-image: url(img/hero-photo.png);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding-bottom: 0;
+  box-shadow: inset 0 0 0 1000px rgb(84 98 136 / 30%);
+}
+
+.subscribe-article h1 {
+  color: white;
+}
+
+.subscribe-article p {
+  color: white;
+}
+
+.subscribe-article section {
+  padding-left: 150px;
+}
+
+.subscribe-article section button.subscribe-article {
+    margin-top: 35px;
 }
