@@ -14,12 +14,8 @@
 }
 
 #logo {
-  width:13%;
-  height:13%;
+  width:8%;
   padding-right:250px;
-}
-#login {
-  padding-left: 250px;
 }
 h1 {
   font-size:large;
@@ -29,7 +25,9 @@ h2 {
   font-size:xx-large;
   font-weight: bolder;
 }
-
+section.cover {
+  background-image: url("BIKE\ COVER.png");
+}
 .bank-article {
   background-image: url("piggy-bank.jpg");
   background-size: cover;
