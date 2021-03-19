@@ -3,7 +3,7 @@
   font-family: "Calibri", sans-serif;
 }
 
-
+/* css header */
 header {
  display: flex;
  justify-content: space-between;
@@ -17,7 +17,7 @@ header {
 }
 
 section.button-pink {
-  padding-right: 70px;
+  padding-right: 125px;
 }
 button.subscribe {
   color: white;
@@ -26,7 +26,7 @@ button.subscribe {
   border: 2px solid hsl(337, 79%, 56%);
   height: 38px;
   width: 146px;
-  
+  margin-right: 10px;
 }
 
 button.login {
@@ -44,12 +44,13 @@ img#jukebox-logo{
   padding:7px;
 }
 
+/* css artciles */
 button.subscribe-today {
   color: white;
   background-color: hsl(337, 79%, 56%);
   border-radius: 29px;
   border: 2px solid hsl(337, 79%, 56%);
-  height: 37px;
+  height: 45px;
   width: 234px;
   font-weight: bold;
   font-size: 17px;
@@ -68,25 +69,123 @@ button.subscribe-today {
 
 .subscribe-section {
   color: white;
-  width: 38%;
+  width: 400px;
   height: 200px;
 }
 
-
 .subscribe-article h1 {
- font-size: 50px;
-
+ font-size: 45px;
 }
 
 .subscribe-article p {
-  font-size: 16px;
+  font-size: 19px;
 }
 
 .subscribe-article section {
-  padding-left: 150px;
+  padding-left: 245px;
 }
 
-/* .subscribe-article section button.subscribe-article {
-    margin-top: 35px;
+/* css plans */
+
+.plan-option {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding: 20px;
 }
- */
+
+button.sign-up {
+  color: white;
+  background-color: transparent;
+  border-radius: 29px;
+  border: 2px white;
+  height: 38px;
+  width: 150px;
+  margin-right: 10px;
+  border: 2px solid white;
+}
+
+div.basic {
+  color: white;
+  background-color: rgb(14, 159, 255);
+  border: 2px solid ;
+  padding: 30px;
+  text-align: center;
+  /* width: 160px; */
+  border-radius: 10px;
+  height: 270px;
+}
+
+div.plus {
+  color: white;
+  background-color: rgb(98, 14, 255);
+  border: 2px solid;
+  padding: 30px;
+  text-align: center;
+  /* width: 160px; */
+  border-radius: 10px;
+  height: 270px;
+}
+
+div.premium {
+  color: white;
+  background-color: rgb(147, 14, 255);
+  border: 2px solid;
+  padding: 30px;
+  text-align: center;
+  /* width: 160px; */
+  border-radius: 10px;
+  height: 270px;
+}
+
+/* css albums */
+
+div.blue-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(14, 159, 255);
+  padding-top: 55px;
+  text-align: center;
+}
+
+div.grey-text {
+  color: rgb(138, 137, 137);
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+div.albums {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding-bottom: 20px;
+
+}
+
+div.album {
+  display: flex;
+  padding: 20px;
+}
+
+/* footer */
+
+footer {
+ display: flex;
+ justify-content: space-between;
+ padding-top: 10px;
+ padding-left: 70px;
+ padding-right: 50px;
+ padding-bottom: 10px;
+ background-color: rgb(14, 159, 255);
+}
+
+img#footer-logo{
+  height: 18px;
+  width: 120px;
+  padding:7px;
+}
+
+img.footer-social {
+  padding-left: 5px;
+}
