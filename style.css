@@ -59,11 +59,13 @@ button.subscribe-today {
 .subscribe-article {
   background-image: url(img/hero-photo.png);
   background-size: cover;
-  background-position: center;
-  height: 350px;
-  width: 100%;
-  padding-bottom: 41px;
-  padding-top: 156px;
+  /* background-position: center; */
+  height: auto;
+  padding: 260px;
+  /* height: 470px; */
+  /* width: 100%; */
+  /* padding-bottom: 41px;
+  padding-top: 156px; */
   box-shadow: inset 0 0 0 1000px rgb(84 98 136 / 30%);
 }
 
@@ -82,7 +84,7 @@ button.subscribe-today {
 }
 
 .subscribe-article section {
-  padding-left: 245px;
+  padding-left: 35px;
 }
 
 /* css plans */
@@ -136,6 +138,28 @@ div.premium {
   /* width: 160px; */
   border-radius: 10px;
   height: 270px;
+}
+
+/* css description */
+
+section.description {
+  background-image: url(img/about-photo.png);
+  background-size: cover;
+  height: auto;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  color: white;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding: 170px;
+}
+
+div.about {
+  /* width: 400px;
+  height: 200px; */
+  /* display: flex; */
+  /* padding: 30px; */
 }
 
 /* css albums */
