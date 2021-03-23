@@ -92,7 +92,7 @@ button.subscribe-today {
 .plan-option {
   justify-content:center;
   padding-left: 370px;
-  padding-right: 300px;
+  padding-right:370px;
   padding-bottom: 70px;
 
 }
@@ -158,8 +158,8 @@ and (min-device-width: 1025px)
     flex-wrap: wrap;
     justify-content:space-between;
     padding-bottom: 50px;
-    padding-right:230px;
-    padding-left:230px;
+    padding-right:300px;
+    padding-left:300px;
   }
 }
 /* css description */
@@ -194,7 +194,6 @@ div.about {
   .about p{
     font-size: 17px;
     line-height: 32px;
-
     }
   
 
@@ -262,7 +261,7 @@ div.albums {
 
 div.album {
   display: flex;
-  padding: 20px;
+  padding: 41px;
 }
 }
 
