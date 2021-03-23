@@ -172,17 +172,51 @@ section.description {
   /* background-position: center; */
   color: white;
   display:flex;
-  flex-wrap: wrap;
-  justify-content:center;
+  /* flex-wrap: wrap; */
+  /* justify-content:center; */
   padding: 170px;
 }
 
 div.about {
-  /* width: 400px;
-  height: 200px; */
-  /* display: flex; */
-  /* padding: 30px; */
-}
+  width: 400px;
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+  padding-right:10px;
+  }  
+
+  .about h1{
+    padding-top: 40px;
+    /* padding-right: 20px; */
+
+  }
+  
+  .about p{
+    font-size: 17px;
+    line-height: 32px;
+
+    }
+  
+
+/* css description for desktop
+@media only screen 
+and (min-device-width: 1025px)
+{
+  div.about {
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  padding-top: 50px;
+  text-align: center;
+  padding-right:10px;
+  }  
+
+  .about h1{
+    padding-right: 0px;
+  }
+
+}  */
+
 
 /* css albums */
 
