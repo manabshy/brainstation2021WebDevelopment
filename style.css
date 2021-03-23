@@ -90,11 +90,16 @@ button.subscribe-today {
 /* css plans */
 
 .plan-option {
-  display:flex;
-  flex-wrap: wrap;
   justify-content:center;
-  padding: 20px;
+  padding-left: 370px;
+  padding-right: 300px;
+  padding-bottom: 70px;
+
 }
+
+.plan-option h1 {
+  font-size: 30px;
+ }
 
 button.sign-up {
   color: white;
@@ -113,8 +118,9 @@ div.basic {
   border: 2px solid ;
   padding: 30px;
   text-align: center;
-  /* width: 160px; */
+  width: 175px;
   border-radius: 10px;
+  padding-bottom: 20px;
   height: 270px;
 }
 
@@ -124,8 +130,9 @@ div.plus {
   border: 2px solid;
   padding: 30px;
   text-align: center;
-  /* width: 160px; */
+  width: 175px;
   border-radius: 10px;
+  padding-bottom: 20px;
   height: 270px;
 }
 
@@ -135,11 +142,26 @@ div.premium {
   border: 2px solid;
   padding: 30px;
   text-align: center;
-  /* width: 160px; */
+  width: 175px;
   border-radius: 10px;
+  padding-bottom: 20px;
   height: 270px;
 }
 
+/* css plans for desktop */
+
+@media only screen 
+and (min-device-width: 1025px)
+{
+  .plan-option {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-bottom: 50px;
+    padding-right:230px;
+    padding-left:230px;
+  }
+}
 /* css description */
 
 section.description {
@@ -180,10 +202,27 @@ div.grey-text {
 }
 
 div.albums {
+  padding-left: 33%;
+  padding-bottom: 20px;
+
+}
+
+div.album {
+  padding: 20px;
+}
+
+/* css-albums for desktop */
+
+@media only screen 
+and (min-device-width: 1025px)
+{
+
+div.albums {
   display:flex;
   flex-wrap: wrap;
   justify-content:center;
   padding-bottom: 20px;
+  padding-left: 0%;
 
 }
 
@@ -191,6 +230,8 @@ div.album {
   display: flex;
   padding: 20px;
 }
+}
+
 
 /* footer */
 
