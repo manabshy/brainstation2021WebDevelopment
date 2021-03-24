@@ -3,19 +3,32 @@
   font-family:  'Raleway', sans-serif;
 }
 .header {
-  color:#070d3d;
+  color:#2e313a;
   display: flex;
   padding:5px;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 16px;
 }
 .header p {
-  padding-top:25px;
+  padding-top:35px;
   padding-right:50px;
 }
+a:link {
+  text-decoration: none;
+  color:#2e313a
+}
+a:visited {
+  text-decoration: none;
+  color:#2e313a
+}
+a:hover {
+  text-decoration: underline;
+}
 #logo {
-  width: 7%;
-  padding-right: 500px;
+  width: 5%;
+  height: auto;
+  padding-right: 400px;
+  padding-left: 20px;
 }
 div.banner {
   background-image: url("BikeBackground.png");
@@ -37,9 +50,8 @@ div.banner {
   padding: 35px;
   z-index: 3;
   color:#f5f5f5;
-  position: relative;
+  position: absolute;
   width: 40%;
-
 }
 .bannercopy h1 {
   font-family: 'Syne Mono', monospace;
@@ -50,14 +62,13 @@ div.banner {
   font-size: 20px;
   font-weight: lighter;
   padding-right: 40px;
-
 }
 button {
   background-color: #adf5ff;
-  color:#070d3d;
+  color:#2e313a;
   border: none;
-  border-radius: 20px;
-  margin-top: 20px;;
+  border-radius: 30px;
+  margin-top: 20px;
   padding:20px;
   letter-spacing: 2px;
   font-size: 16px;
@@ -66,17 +77,16 @@ button {
   cursor:pointer;
 }
 button:hover {
-  background-color: #070d3d;
-  color: #f5f5f5;
+  background-color: #2e313a;
+  color: #adf5ff;
 }
 div.how-it-works {
   margin-top:15px;
   text-align: center;
   font-size: 20px;
   letter-spacing: 2px;
-  color:#070d3d;
+  color:#2e313a;
 }
-
 #chevron {
   text-align:center;
   width: 5%;
@@ -94,7 +104,7 @@ card.steps{
   flex-direction: column;
   width: 20%; 
   font-size: 12px;
-  border: 3px dashed #070d3d;
+  border: 3px dashed #2e313a;
   margin:10px;
 }
 card.steps p {
@@ -122,8 +132,9 @@ card.steps.fix img{
   background-image: url("to-skyline.png");
   z-index:1;
   background-size: cover;
+  background-position:bottom;
   width: 100%;
-  height: 600px;
+  height: 450px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -131,24 +142,24 @@ card.steps.fix img{
   font-size: 15px;
 }
 card.details {
-  color: #070d3d;
-  width: 40%;
-  height: 20%;
+  color: #2e313a;
+  width: 22%;
   font-size: 14px;
-  padding:0px;
   margin:0px;
+  padding-bottom:20px;
 }
 card.details h3 {
-  background-color: #070d3d;
-  color:white;
-  padding: 7px;
-  border-radius: 10px;
-  letter-spacing: 2px;
+  padding: 5px;
+  letter-spacing: 3px;
+  border: 2px solid #2e313a;
+  background-color: #2e313a;
+  color:#f5f5f5;
+  text-align: center;
 }
 footer {
   height: 55px;
   background-color: #adf5ff;
-  color:#070d3d;
+  color:#2e313a;
   width: 100%;
 }
 .footer-titles {
@@ -164,14 +175,14 @@ footer {
   margin:20px;
 }
 .footer-titles img {
-  padding: 10px;
+  padding: 15px;
   width:2%;
   height:auto;
 }
 /*phone*/
 @media 
-(max-device-width:640px) and 
-(min-device-width:320px) {
+(min-device-width:320px) and
+(max-device-width:640px) {
   .header {
     float: none;
     display: block;
@@ -180,24 +191,23 @@ footer {
   #logo {
     position: relative;
     align-self: center;
-    padding-right: 50px;
+    padding-right: 60px;
   }
   div.banner {
     height: 30%;
-    z-index: 1;
-    width:100%;
   }
   #banneroverlay {
     width: 95%;
     height:27%;
   }
   .bannercopy {
+    padding-top: 100px;
     width: 95%;
     text-align: center;
   }
   card.steps{
     width: 35%; 
-    border: 2px dashed #070d3d;
+    border: 2px dashed #2e313a;
     margin-bottom: 60px;
   }
   card.steps.form img{
@@ -213,28 +223,20 @@ footer {
     width:30%;
   }
   .div-details {
-    height: 850px;
+    height: 750px;
     display:block;
     line-height:1.5;
     font-size: 15px;
   }
   card.details {
-    color: #070d3d;
     width: 100%;
-    margin-bottom: 10px;
   }
   card.details h3 {
     margin-left:20px;
     margin-right: 20px;
   }
   footer {
-    height: 55px;
-    background-color: #adf5ff;
-    color:#070d3d;
-    width: 100%;
-  }
-  footer {
-    height: 250px;
+    height: 300px;
   }
   .footer-titles{
     float: none;
