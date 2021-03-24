@@ -1,25 +1,72 @@
 * {
   margin:0;
   font-family: "Calibri", sans-serif;
+  text-align:center;
 }
 
+span {
+  font-size:x-small;
+}
+
+h1 {
+  font-size:xx-large;
+}
 body {
-  
+  max-width:400px;
+  margin:auto;
+}
+
+#logo-head {
+  height:15px;
 }
 
 header {
   display:flex;
   justify-content: space-between;
-  padding:30px;
-  padding-right:70px;
-  padding-left:70px;
+  padding:15px;
+  padding-bottom:10px;
+  align-items:center;
+
 }
 
 section.Subscribe-Today {
-  background-image:url();
-  height:300px;
+  background-image:url(/img/hero-photo.png);
+  height:400px;
   width:100%;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  color:white;
 }
 
+section.Subscribe-Today > div {
+  width:300px;
+  height:160px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+section.plans {
+  height:auto;
+  background-color:floralwhite;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:30px;
+}
+
+div.card {
+  width:240px;
+  height:330px;
+  background-color:lightskyblue;
+  border-radius: 8px;
+  margin-top:20px;
+  display:flex;
+  flex-direction:column;
+}
 
 
