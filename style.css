@@ -7,7 +7,7 @@
   display: flex;
   padding:5px;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 15px;
 }
 .header p {
   padding-top:25px;
@@ -55,7 +55,7 @@ div.banner {
 }
 .bannercopy h1 {
   font-family: 'Syne Mono', monospace;
-  font-size: 80px;
+  font-size: 75px;
 }
 .bannercopy h2 {
   letter-spacing:2px;
@@ -71,7 +71,7 @@ button {
   margin-top: 20px;
   padding:20px;
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   width: 400px;
   cursor:pointer;
@@ -89,7 +89,7 @@ div.how-it-works {
 }
 #chevron {
   text-align:center;
-  width: 5%;
+  width: 4%;
 }
 .steps {
   display: flex;
@@ -104,7 +104,7 @@ card.steps{
   flex-direction: column;
   width: 20%; 
   font-size: 12px;
-  border: 3px dashed #2e313a;
+  border: 2px solid #2e313a;
   margin:10px;
 }
 card.steps p {
@@ -144,7 +144,7 @@ card.steps.fix img{
 card.details {
   color: #2e313a;
   width: 22%;
-  font-size: 14px;
+  font-size: 15px;
   margin:0px;
   padding-bottom:20px;
 }
@@ -155,6 +155,7 @@ card.details h3 {
   background-color: #2e313a;
   color:#f5f5f5;
   text-align: center;
+  font-size: 15px;
 }
 footer {
   height: 55px;
@@ -183,12 +184,14 @@ footer {
 .about {
   text-align: center;
   font-family: 'Syne Mono', monospace;
-  background-color:#2e313a;
-  color:#f5f5f5;
+  color:#2e313a;
   letter-spacing: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+hr {
 
+  border-width: solid;
 }
 .streetcar {
   margin-top: 20px;
