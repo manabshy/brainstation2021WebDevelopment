@@ -59,9 +59,10 @@ button.subscribe-today {
 .subscribe-article {
   background-image: url(img/hero-photo.png);
   background-size: cover;
+  /* padding-top: 200px; */
   /* background-position: center; */
   height: auto;
-  padding: 260px;
+  padding: 20%;
   /* height: 470px; */
   /* width: 100%; */
   /* padding-bottom: 41px;
@@ -92,13 +93,14 @@ button.subscribe-today {
 .plan-option {
   justify-content:center;
   padding-left: 370px;
-  padding-right:370px;
   padding-bottom: 70px;
+  line-height: 25px;
 
 }
 
 .plan-option h1 {
   font-size: 30px;
+  margin-bottom: 5px;
  }
 
 button.sign-up {
@@ -121,7 +123,7 @@ div.basic {
   width: 175px;
   border-radius: 10px;
   padding-bottom: 20px;
-  height: 270px;
+  height: 310px;
 }
 
 div.plus {
@@ -133,7 +135,7 @@ div.plus {
   width: 175px;
   border-radius: 10px;
   padding-bottom: 20px;
-  height: 270px;
+  height: 310px;
 }
 
 div.premium {
@@ -145,7 +147,7 @@ div.premium {
   width: 175px;
   border-radius: 10px;
   padding-bottom: 20px;
-  height: 270px;
+  height: 310px;
 }
 
 /* css plans for desktop */
@@ -158,8 +160,8 @@ and (min-device-width: 1025px)
     flex-wrap: wrap;
     justify-content:space-between;
     padding-bottom: 50px;
-    padding-right:300px;
-    padding-left:300px;
+    padding-right:230px;
+    padding-left:230px;
   }
 }
 /* css description */
@@ -174,25 +176,30 @@ section.description {
   display:flex;
   /* flex-wrap: wrap; */
   /* justify-content:center; */
-  padding: 170px;
+  /* padding: 170px; */
+  padding-left: 150px;
+  padding-right:10px;
+  padding-bottom:170px;
+  padding-top: 170px;
 }
 
 div.about {
-  width: 400px;
+  width: 300px;
   height: 200px;
   padding-top: 50px;
   text-align: center;
-  padding-right:10px;
+  padding-right: 40px;
   }  
 
   .about h1{
-    padding-top: 40px;
+    padding-top: 30px;
+    font-size: 29px;
     /* padding-right: 20px; */
 
   }
   
   .about p{
-    font-size: 17px;
+    /* font-size: 19px; */
     line-height: 32px;
     }
   
@@ -261,7 +268,7 @@ div.albums {
 
 div.album {
   display: flex;
-  padding: 41px;
+  padding: 20px;
 }
 }
 
