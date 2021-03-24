@@ -1,15 +1,25 @@
 * {
   margin:0;
   font-family: "Calibri", sans-serif;
-  
 }
 
 body {
   
 }
 
+header {
+  display:flex;
+  justify-content: space-between;
+  padding:30px;
+  padding-right:70px;
+  padding-left:70px;
+}
 
-
+section.Subscribe-Today {
+  background-color:red;
+  height:300px;
+  width:100%;
+}
 
 
 
