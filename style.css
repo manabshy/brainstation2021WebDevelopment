@@ -25,7 +25,7 @@ a:hover {
   text-decoration: underline;
 }
 #logo {
-  width: 4%;
+  width: 50px;
   height: auto;
   padding-right: 400px;
   padding-left: 20px;
@@ -73,7 +73,6 @@ button {
   letter-spacing: 2px;
   font-size: 15px;
   font-weight: bold;
-  width: 400px;
   cursor:pointer;
 }
 button:hover {
@@ -131,10 +130,9 @@ card.steps.fix img{
   padding-top: 20px;
   background-image: url("to-skyline.png");
   z-index:1;
-  background-size: cover;
+  background-size: fill;
   background-position:bottom;
   width: 100%;
-  height: 450px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -253,10 +251,9 @@ hr {
     width:30%;
   }
   .div-details {
-    height: 750px;
     display:block;
     line-height:1.5;
-    font-size: 15px;
+
   }
   card.details {
     width: 100%;
@@ -277,4 +274,25 @@ hr {
     margin-top:0;
     padding-top:8px;
   }
+}
+  /*tablet*/
+@media (min-device-width:640px) and
+(max-device-width:960px) {
+  div.banner {
+    background-image: url("BikeBackground.png");
+    background-size:fill;
+    background-position: center;
+    z-index: 1
+  }
+  #banneroverlay {
+    min-width: 40%;
+  }
+  .bannercopy {
+    min-width: 40%;
+  }
+  button {
+    margin-top: 10px;
+    padding:0px;
+  }
+
 }
