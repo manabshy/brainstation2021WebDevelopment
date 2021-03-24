@@ -88,6 +88,14 @@ button.subscribe-today {
   padding-left: 35px;
 }
 
+/* css article for large desktop */
+@media only screen 
+and (min-device-width: 1440px)
+{
+  .subscribe-article section {
+    padding-left: 10%;
+  }
+}
 /* css plans */
 
 .plan-option {
@@ -164,6 +172,23 @@ and (min-device-width: 1025px)
     padding-left:230px;
   }
 }
+
+/* css plans for large desktop */
+@media only screen 
+and (min-device-width: 1440px)
+{
+  .plan-option {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-bottom: 50px;
+    padding-right:500px;
+    padding-left:600px;
+  }
+}
+
+
+
 /* css description */
 
 section.description {
@@ -204,24 +229,23 @@ div.about {
     }
   
 
-/* css description for desktop
+/* css description for desktop */
 @media only screen 
-and (min-device-width: 1025px)
+and (min-device-width: 1440px)
 {
   div.about {
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 500px;
   padding: 15px;
-  padding-top: 50px;
+  padding-top: 300px;
   text-align: center;
-  padding-right:10px;
+  padding-right: 190px;
   }  
 
-  .about h1{
-    padding-right: 0px;
+  section.description {
+    padding-left: 300px;
   }
-
-}  */
+} 
 
 
 /* css albums */
@@ -264,12 +288,25 @@ div.albums {
   padding-bottom: 20px;
   padding-left: 0%;
 
-}
+ }
 
 div.album {
   display: flex;
   padding: 20px;
+ }
 }
+
+/* css-albums for large desktop */
+
+@media only screen 
+and (min-device-width: 1440px)
+{
+
+div.albums {
+  padding-left: 20%;
+  padding-right: 20%;
+
+ }
 }
 
 
