@@ -177,7 +177,7 @@ button#pink-white {
 }
 
 button#translucent {
-  background-color:rgb(62, 148, 254);
+  background-color:rgb(62, 148, 254,0.0);
   border-color:white;
   color:white;
 }
