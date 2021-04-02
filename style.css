@@ -130,6 +130,7 @@ div.icon-card > h3 {
 
 section.albums-display {
   background-color:floralwhite;
+  height:auto;
 }
 
 div.display {
@@ -186,4 +187,45 @@ button#pink-border {
   border-color:rgb(252, 21, 86);
   background-color: white;
   color:rgb(252, 21, 86);
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    max-width:2400px;
+  }
+
+  h1#left-align {
+    text-align: left;
+  }
+
+  section.Subscribe-Today > div {
+    align-items: flex-start;
+  }
+
+  div#plansbox {
+    display:flex;
+  }
+  
+  section.card{
+
+    margin-left:50px;
+  }
+
+  section.purple-section {
+    flex-direction: row;
+    height: 400px;
+    background-size:cover;
+    align-items: center;
+  }
+
+  div.display {
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding-bottom: 20px;
+  }
+
+
+
+ 
 }
